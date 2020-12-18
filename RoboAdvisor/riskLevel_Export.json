@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "schemaVersion": "1.0",
+    "importType": "LEX",
+    "importFormat": "JSON"
+  },
+  "resource": {
+    "description": "",
+    "name": "riskLevel",
+    "version": "1",
+    "enumerationValues": [
+      {
+        "value": "High",
+        "synonyms": [
+          "risky",
+          "risk seeking",
+          "risky investment option"
+        ]
+      },
+      {
+        "value": "Very Low",
+        "synonyms": [
+          "minuscule risk",
+          "barely any risk",
+          "very conservative",
+          "very safe investment option"
+        ]
+      },
+      {
+        "value": "Low",
+        "synonyms": [
+          "just a bit of risk",
+          "small amount of risk",
+          "conservative",
+          "safe investment option"
+        ]
+      },
+      {
+        "value": "Medium",
+        "synonyms": [
+          "moderate amount of risk",
+          "moderate investment option"
+        ]
+      },
+      {
+        "value": "Very High",
+        "synonyms": [
+          "very risky",
+          "riskiest investment option"
+        ]
+      },
+      {
+        "value": "None",
+        "synonyms": [
+          "No risk at all",
+          "risk-free",
+          "completely risk averse",
+          "safest investment option"
+        ]
+      }
+    ],
+    "valueSelectionStrategy": "TOP_RESOLUTION"
+  }
+}
